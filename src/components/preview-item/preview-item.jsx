@@ -13,7 +13,7 @@ const PreviewItem = ({ item, addItem }) => {
       <div className="image" style={{ backgroundImage: `url(${imageUrl})` }} />
       <div className="item-footer">
         <span className="name">{name}</span>
-        <span className="price">{price}</span>
+        <span className="price">${price}</span>
       </div>
       <CustomButton onClick={() => addItem(item)} inverted>
         ADD TO CART
